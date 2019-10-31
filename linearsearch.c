@@ -1,9 +1,9 @@
   
-#include <stdio.h> 
+#include <stdio.h> //header
   
 int search(int arr[], int n, int x) 
 { 
-    int i; 
+    int i; //variables
     for (i = 0; i < n; i++) 
         if (arr[i] == x) 
             return i; 
@@ -12,7 +12,7 @@ int search(int arr[], int n, int x)
   
 int main(void) 
 { 
-    int arr[] = { 2, 3, 4, 10, 40 }; 
+    int arr[] = { 2, 3, 4, 10, 40 }; //array
     int x = 10; 
     int n = sizeof(arr) / sizeof(arr[0]); 
     int result = search(arr, n, x); 
@@ -21,3 +21,4 @@ int main(void)
                             result); 
     return 0; 
 } 
+//end 

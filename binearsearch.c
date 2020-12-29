@@ -11,6 +11,7 @@ int main()
    scanf("%d", &search);
    first = 0;
    last = n - 1;
+   //sampleforfork
    middle = (first+last)/2;
    while (first <= last) {
       if (array[middle] < search)
